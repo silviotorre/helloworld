@@ -20,7 +20,7 @@ python hello-world.py
 - [ ] bash hello world
 - [ ] powershell hello world
 - [ ] python hello world
-- [ ] java hello world
+- [x] [java hello world](java/README.md)
 - [ ] c# hello world
 - [ ] vb hello world
 - [ ] go hello world
