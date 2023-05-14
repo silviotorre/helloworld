@@ -1,7 +1,7 @@
 # Hello World in Multiple Languages Extravaganza: CMD
 Hello world project extravaganza, the Win**dos** command line version.
 ## Synopsis
-This repository contains a collection of "Hello World" programs written in Java; from the simplest "Hello World" batch program to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
+This repository contains a collection of "Hello World" command-line batch programs; from the simplest "Hello World" batch program to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
  
 ## check out the code
 To get started, clone this repository to your local machine:
@@ -27,7 +27,7 @@ Windows command line character by character, you can use a loop to iterate throu
 - open a command prompt or terminal
 - go in the cmd directory of hello world project and then compile the program by opening a terminal or command prompt, navigating to the directory where you saved the HelloWorld.bat file.
 - Run the program by typing **HelloWorld2**, this is not case sensitive so you can type "helloworld2", "HelloWorld2" or "HeLlOwOrLd2" result are the same. then the program should output Hello, World! and wait until you press a key for exit.
-- Alternatively, you can run the program by double-clicking the HelloWorld2.bat file. This should also output will display each character of the message *Hello, World!* and wait until you press a key for exit.
+- Alternatively, you can run the program by double-clicking the HelloWorld2.bat file. This should also output will display each character of the message *Hello,World!* and wait until you press a key for exit.
 
 ```bash
 HelloWorld2
@@ -39,7 +39,7 @@ HelloWorld2
 
 # Extra Credit
 - [ ] Add colours to the output
-- [ ] Add typing effect to the output
+- [x] Add advanced typing effect to the output, i.e. print one character at a time
 - [ ] Add a command-line argument to the program to print a custom message
 - [ ] Add ASCII art to the output
 

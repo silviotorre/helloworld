@@ -1,0 +1,24 @@
+datatable (id: int, letter: string)
+[
+    1, "H",
+    2, "e",
+    3, "l",
+    4, "l",
+    5, "o",
+    6, " ",
+    7, "W",
+    8, "o",
+    9, "r",
+    10, "l",
+    11, "d",
+    12, "!"
+]
+| order by id asc
+| extend idNew = id + rand() * 1000
+| join kind=inner (
+    range i from 1 to 12 step 1
+    | extend pseudoRandomValue = 1 + rand() * 1000
+) on $left.idNew <= pseudoRandomValue, $right.i >= id
+| where idNew == i
+| summarize message = strcat_array(make_list(letter), "")
+| project Result = message
