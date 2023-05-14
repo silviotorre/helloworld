@@ -16,38 +16,38 @@ python hello-world.py
 ```
 ## tasks
 - [x] create a hello world project
-- [ ] cmd line hello world
 - [ ] bash hello world
+- [ ] c hello world
+- [ ] c# hello world
+- [x] [cmd line hello world](cmd/README.md)
+- [ ] cobol hello world
+- [ ] f# hello world
+- [ ] fortran hello world
+- [ ] go hello world
+- [ ] groovy hello world
+- [x] [java hello world](java/README.md)
+- [ ] javascript hello world
+- [ ] json hello world
+- [ ] kotlin hello world
+- [ ] kusto hello world
+- [ ] matlab hello world
+- [ ] node.js hello world
+- [ ] perl hello world
 - [ ] powershell hello world
 - [ ] python hello world
-- [x] [java hello world](java/README.md)
-- [ ] c# hello world
-- [ ] vb hello world
-- [ ] go hello world
-- [ ] rust hello world
-- [ ] ruby hello world
-- [ ] r hello world
 - [ ] q# hello world
-- [ ] f# hello world
-- [ ] kusto hello world
+- [ ] r hello world
+- [ ] ruby hello world
+- [ ] rust hello world
+- [ ] scala hello world
 - [ ] sql hello world
 - [ ] tsql hello world
-- [ ] yaml hello world
 - [ ] u-sql hello world
-- [ ] scala hello world
-- [ ] fortran hello world
-- [ ] groovy hello world
-- [ ] javascript hello world
-- [ ] kotlin hello world
-- [ ] xml hello world
-- [ ] json hello world
-- [ ] c hello world
+- [ ] vb hello world
 - [ ] vb.net hello world
-- [ ] bash hello world
-- [ ] node.js hello world
-- [ ] matlab hello world
-- [ ] cobol hello world
-- [ ] perl hello world
+- [ ] xml hello world
+- [ ] yaml hello world
+
 
 # Extra Credit
 - [ ] uml hello world
