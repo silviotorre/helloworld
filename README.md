@@ -29,7 +29,7 @@ python hello-world.py
 - [ ] javascript hello world
 - [ ] json hello world
 - [ ] kotlin hello world
-- [ ] kusto hello world
+- [x] [kusto hello world](kusto/README.md)
 - [ ] matlab hello world
 - [ ] node.js hello world
 - [ ] perl hello world
@@ -58,6 +58,13 @@ python hello-world.py
 - [ ] office macro hello world
 - [ ] google dorks hello world
 - [ ] github actions hello world
+- [ ] Add a new programming languages
+- [ ] Add shields to README.md
+- [ ] Add a project logo
+- [ ] Add a project banner
+- [ ] Add a project website
+- [ ] Add a project wiki
+- [ ] Add a project translation
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
