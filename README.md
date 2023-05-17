@@ -15,53 +15,53 @@ To run the "Hello World" program in a specific programming language. For example
 python hello-world.py
 ```
 ## tasks
-- [x] create a hello world project
-- [ ] bash hello world
-- [ ] c hello world
-- [ ] c# hello world
-- [x] [cmd line hello world](cmd/README.md)
-- [ ] cobol hello world
-- [ ] f# hello world
-- [ ] fortran hello world
-- [ ] go hello world
-- [ ] groovy hello world
-- [x] [java hello world](java/README.md)
-- [ ] javascript hello world
-- [x] json hello world
-- [ ] kotlin hello world
-- [x] [kusto hello world](kusto/README.md)
-- [ ] matlab hello world
-- [ ] node.js hello world
-- [ ] perl hello world
-- [ ] powershell hello world
-- [ ] python hello world
-- [ ] q# hello world
-- [ ] r hello world
-- [ ] ruby hello world
-- [ ] rust hello world
-- [ ] scala hello world
-- [ ] sql hello world
-- [ ] tsql hello world
-- [ ] u-sql hello world
-- [ ] vb hello world
-- [ ] vb.net hello world
-- [ ] xml hello world
-- [ ] yaml hello world
+- [x]  create a hello world project
+- [ ]  bash hello world
+- [ ]  c hello world
+- [ ]  c# hello world
+- [x]  [cmd line hello world](cmd/README.md)
+- [ ]  cobol hello world
+- [ ]  f# hello world
+- [ ]  fortran hello world
+- [ ]  go hello world
+- [ ]  groovy hello world
+- [x]  [java hello world](java/README.md)
+- [ ]  javascript hello world
+- [x]  [json hello world](json/README.md)
+- [ ]  kotlin hello world
+- [x]  [kusto hello world](kusto/README.md)
+- [ ]  matlab hello world
+- [ ]  node.js hello world
+- [ ]  perl hello world
+- [ ]  powershell hello world
+- [ ]  python hello world
+- [ ]  p# hello world
+- [ ]  R hello world
+- [ ]  ruby hello world
+- [ ]  rust hello world
+- [ ]  scala hello world
+- [ ]  sql hello world
+- [ ]  tsql hello world
+- [ ]  u-sql hello world
+- [ ]  vb hello world
+- [ ]  vb.net hello world
+- [ ]  xml hello world
+- [ ]  yaml hello world
 
 
 # Extra Credit
-- [ ] Add a new programming languages
-- [ ] Add a project banner
-- [ ] Add a project logo
-- [ ] Add a project translation
-- [ ] Add a project website
-- [ ] Add a project wiki
-- [ ] Add shields to README.md
-- [ ] github actions hello world
-- [ ] google dorks hello world
-- [ ] office macro hello world
-- [ ] uml hello world
-- [ ] unit test hello world
+- [ ]  Add a new programming languages
+- [ ]  Add a project banner
+- [ ]  Add a project logo
+- [ ]  Add a project translation
+- [ ]  Add a project website
+- [ ]  Add a project wiki
+- [ ]  Add shields to README.md
+- [ ]  github actions hello world
+- [ ]  google dorks hello world
+- [ ]  office macro hello world
+- [ ]  uml hello world
+- [ ]  unit test hello world
 
 
 ## Contributing

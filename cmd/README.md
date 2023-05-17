@@ -1,7 +1,7 @@
 # Hello World in Multiple Languages Extravaganza: CMD
 Hello world project extravaganza, the Win**dos** command line version.
 ## Synopsis
-This repository contains a collection of "Hello World" command-line batch programs; from the simplest "Hello World" batch program to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
+This [repository](https://github.com/silviotorre/helloworld) contains a collection of "Hello World" command-line batch programs; from the simplest "Hello World" batch program to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project and you can found it in [Hello World Extravaganza website](https://silviotorre.github.io/helloworld/).
  
 ## check out the code
 To get started, clone this repository to your local machine:
@@ -34,14 +34,14 @@ HelloWorld2
 ```
 
 ## tasks
-- [x] basic "Hello World" command-line batch program
-- [x] Advanced "Hello World" command-line batch program char by char
+- [x]  basic "Hello World" command-line batch program
+- [x]  Advanced "Hello World" command-line batch program char by char
 
 # Extra Credit
-- [ ] Add colours to the output
-- [x] Add advanced typing effect to the output, i.e. print one character at a time
-- [ ] Add a command-line argument to the program to print a custom message
-- [ ] Add ASCII art to the output
+- [ ]  Add colours to the output
+- [x]  Add advanced typing effect to the output, i.e. print one character at a time
+- [ ]  Add a command-line argument to the program to print a custom message
+- [ ]  Add ASCII art to the output
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!

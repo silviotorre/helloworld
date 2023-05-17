@@ -1,7 +1,7 @@
 # Hello World in Multiple Languages Extravaganza: Kusto
 Hello world project extravaganza, the Kusto Query Language (KQL) version.
 ## Synopsis
-This repository contains a version of "Hello World" programs written in Kusto;Kusto Query Language (KQL), is a query language designed for Azure Data Explorer and other data services in the Azure ecosystem. It is not a general purpouse programming language, it is used for querying large datasets and analyzing log data. So this is an unconventional use of Kusto, and this query is overly complex for educational purposes only; indeed this is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
+This repository contains a version of "Hello World" programs written in Kusto;Kusto Query Language (KQL), is a query language designed for Azure Data Explorer and other data services in the Azure ecosystem. It is not a general purpouse programming language, it is used for querying large datasets and analyzing log data. So this is an unconventional use of Kusto, and this query is overly complex for educational purposes only; indeed this is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project and you can found it in [Hello World Extravaganza website](https://silviotorre.github.io/helloworld/).
  
 ## check out the code
 To get started, clone this repository to your local machine:
@@ -29,14 +29,11 @@ Azure Data Studio is a cross-platform database tool for data professionals using
 
 
 ## tasks
-- [x] basic "Hello World" command-line batch program
-- [x] Advanced "Hello World" command-line batch program char by char
+- [x]  basic "Hello World" command-line batch program
+- [x]  Advanced "Hello World" command-line batch program char by char
 
 # Extra Credit
-- [ ] Add colours to the output
-- [x] Add advanced typing effect to the output, i.e. print one character at a time
-- [ ] Add a command-line argument to the program to print a custom message
-- [ ] Add ASCII art to the output
+- [ ] Add encoding to the output
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!

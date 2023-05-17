@@ -1,7 +1,7 @@
 # Hello World in Multiple Languages Extravaganza: Json
 Hello world project extravaganza, the Json version.
 ## Synopsis
-This repository contains a collection of "Hello World" command-line batch programs; from the simplest "Hello World" Json, in plain text or encoded version, to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
+This repository contains a collection of "Hello World" command-line batch programs; from the simplest "Hello World" Json, in plain text or encoded version, to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project and you can found it in [Hello World Extravaganza website](https://silviotorre.github.io/helloworld/).
  
 ## check out the code
 To get started, clone this repository to your local machine:
@@ -27,13 +27,13 @@ Get-Content .\HelloWorld.json | ConvertFrom-Json
 
 
 ## tasks
-- [x] basic "Hello World" Json
-- [x] Advanced "Hello World" Json
-- [ ] linked "Hello World" Json files with parameters
+- [x]  basic "Hello World" Json
+- [x]  Advanced "Hello World" Json
+- [ ]  linked "Hello World" Json files with parameters
 
 # Extra Credit
-- [ ] Add schema to the Json file
-- [x] Add advanced features to the json file (es. encoding)
+- [ ]  Add schema to the Json file
+- [x]  Add advanced features to the json file (es. encoding)
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
