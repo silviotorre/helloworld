@@ -27,13 +27,13 @@ Get-Content .\HelloWorld.json | ConvertFrom-Json
 
 
 ## tasks
-- [x] basic "Hello World" Json
-- [x] Advanced "Hello World" Json
-- [ ] linked "Hello World" Json files with parameters
+- [x]  basic "Hello World" Json
+- [x]  Advanced "Hello World" Json
+- [ ]  linked "Hello World" Json files with parameters
 
 # Extra Credit
-- [ ] Add schema to the Json file
-- [x] Add advanced features to the json file (es. encoding)
+- [ ]  Add schema to the Json file
+- [x]  Add advanced features to the json file (es. encoding)
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
