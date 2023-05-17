@@ -1,7 +1,7 @@
 # Hello World in Multiple Languages Extravaganza: JAVA
 Hello world project extravaganza, the java version.
 ## Synopsis
-This repository contains a collection of "Hello World" programs written in Java; from the simplest "Hello World" program in Java to a "Hello World" program in Java that uses the Model-View-Controller (MVC) pattern. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
+This repository contains a collection of "Hello World" programs written in Java; from the simplest "Hello World" program in Java to a "Hello World" program in Java that uses the Model-View-Controller (MVC) pattern. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project and you can found it in [Hello World Extravaganza website](https://silviotorre.github.io/helloworld/).
  
 ## check out the code
 To get started, clone this repository to your local machine:

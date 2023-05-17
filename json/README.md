@@ -1,7 +1,7 @@
 # Hello World in Multiple Languages Extravaganza: Json
 Hello world project extravaganza, the Json version.
 ## Synopsis
-This repository contains a collection of "Hello World" command-line batch programs; from the simplest "Hello World" Json, in plain text or encoded version, to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
+This repository contains a collection of "Hello World" command-line batch programs; from the simplest "Hello World" Json, in plain text or encoded version, to a "Hello World" more complex. This is part of a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project and you can found it in [Hello World Extravaganza website](https://silviotorre.github.io/helloworld/).
  
 ## check out the code
 To get started, clone this repository to your local machine:
