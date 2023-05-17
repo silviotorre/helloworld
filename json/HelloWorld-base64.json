@@ -1,0 +1,5 @@
+{
+    // "message": "Hello, World!", base64 encoded, needs to be decoded first
+    "encoded_message": "SGVsbG8sIFdvcmxkIQ=="
+}
+  

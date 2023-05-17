@@ -1,7 +1,7 @@
 # Hello World in Multiple Languages Extravaganza
 Hello world project extravaganza
 ## Synopsis
-This repository contains a collection of "Hello World" programs written in multiple programming languages. This is a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project.
+This repository contains a collection of "Hello World" programs written in multiple programming languages. This is a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project. Check out the project website at [https://silviotorre.github.io/helloworld/](https://silviotorre.github.io/helloworld/) for more information.
 
 ![Hello world project extravaganza](media/meme-hello-world.jpeg)
 ## check out the code
@@ -27,7 +27,7 @@ python hello-world.py
 - [ ] groovy hello world
 - [x] [java hello world](java/README.md)
 - [ ] javascript hello world
-- [ ] json hello world
+- [x] json hello world
 - [ ] kotlin hello world
 - [x] [kusto hello world](kusto/README.md)
 - [ ] matlab hello world
@@ -50,21 +50,19 @@ python hello-world.py
 
 
 # Extra Credit
-- [ ] uml hello world
-- [ ] function hello world
-- [ ] class hello world
-- [ ] diagram hello world
-- [ ] unit test hello world
-- [ ] office macro hello world
-- [ ] google dorks hello world
-- [ ] github actions hello world
 - [ ] Add a new programming languages
-- [ ] Add shields to README.md
-- [ ] Add a project logo
 - [ ] Add a project banner
+- [ ] Add a project logo
+- [ ] Add a project translation
 - [ ] Add a project website
 - [ ] Add a project wiki
-- [ ] Add a project translation
+- [ ] Add shields to README.md
+- [ ] github actions hello world
+- [ ] google dorks hello world
+- [ ] office macro hello world
+- [ ] uml hello world
+- [ ] unit test hello world
+
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
