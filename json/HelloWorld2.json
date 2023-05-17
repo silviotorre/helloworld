@@ -1,0 +1,13 @@
+{
+    //less simple hello world json, but easy to read (with a json viewer)
+    "greeting": {
+      "message": "Hello, World!",
+      "language": "English",
+      "encoding": "UTF-8"
+    },
+    "author": "John Doe",
+    "timestamp": "2023-05-14T12:34:56Z",
+    "id": "1234567890",
+    "github": "https://github.com/silviotorre/helloworld/json/helloworld2.json"
+  }
+  
