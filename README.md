@@ -63,9 +63,26 @@ python hello-world.py
 - [ ]  uml hello world
 - [ ]  unit test hello world
 
-
 ## Contributing
-Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
+The first documented use of "Hello, World!" as a computer programming message dates back to 1972. It was introduced by [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), one of the pioneers of the C programming language, while he was working on the development of the Unix operating system at Bell Labs. The initial version of "Hello, World!" was used in a tutorial for the B programming language, which served as the precursor to C.
+
+"Hello, World!" as a standard introductory example can be attributed to the growth and influence of the C programming language. As C became popular in the 1970s and 1980s, it is simple enough for beginners to understand and illustrates the basic syntax of a programming language. In addition, it is a useful sanity test to make sure that a programming language is correctly installed on a computer.
+
+This is the original code written in C by Dennis Ritchie:
+```c
+#include <stdio.h>
+
+int main(void){
+  printf("hello, world\n");
+  return 0;
+}
+```
+So here is the challenge:
+
+![Show me your Hello World!](media/meme-show-me-your-hello-world.jpeg)
+
+If you wont to contribute with your own "Hello World" programs to this repository simply create a new directory with the name of the programming language and add a file named **hello-world** with your implementation.
+Don't forget to update the README file to include your contribution!
 
 ## Contributors
 
