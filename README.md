@@ -16,37 +16,37 @@ python hello-world.py
 ```
 ## tasks
 - [x]  create a hello world project
-- [ ]  bash hello world
-- [ ]  c hello world
-- [ ]  c# hello world
-- [x]  [cmd line hello world](cmd/README.md)
-- [ ]  cobol hello world
-- [ ]  f# hello world
-- [ ]  fortran hello world
-- [ ]  go hello world
-- [ ]  groovy hello world
-- [x]  [java hello world](java/README.md)
-- [ ]  javascript hello world
-- [x]  [json hello world](json/README.md)
-- [ ]  kotlin hello world
-- [x]  [kusto hello world](kusto/README.md)
-- [ ]  matlab hello world
-- [ ]  node.js hello world
-- [ ]  perl hello world
-- [ ]  powershell hello world
-- [ ]  python hello world
-- [ ]  p# hello world
+- [ ]  Bash hello world
+- [ ]  C hello world
+- [ ]  C# hello world
+- [x]  [Cmd line hello world](cmd/README.md)
+- [ ]  Cobol hello world
+- [ ]  F# hello world
+- [ ]  Fortran hello world
+- [ ]  Go hello world
+- [ ]  Groovy hello world
+- [x]  [Java hello world](java/README.md)
+- [ ]  Javascript hello world
+- [x]  [Json hello world](json/README.md)
+- [ ]  Kotlin hello world
+- [x]  [Kusto hello world](kusto/README.md)
+- [ ]  Matlab hello world
+- [ ]  Node.js hello world
+- [ ]  Perl hello world
+- [ ]  Powershell hello world
+- [ ]  Python hello world
+- [ ]  Q# hello world
 - [ ]  R hello world
-- [ ]  ruby hello world
-- [ ]  rust hello world
-- [ ]  scala hello world
-- [ ]  sql hello world
-- [ ]  tsql hello world
-- [ ]  u-sql hello world
-- [ ]  vb hello world
-- [ ]  vb.net hello world
-- [ ]  xml hello world
-- [ ]  yaml hello world
+- [ ]  Ruby hello world
+- [ ]  Rust hello world
+- [ ]  Scala hello world
+- [ ]  Sql hello world
+- [ ]  T-sql hello world
+- [ ]  U-sql hello world
+- [ ]  Visual Basic hello world
+- [ ]  Vb.net hello world
+- [ ]  Xml hello world
+- [ ]  Yaml hello world
 
 
 # Extra Credit
@@ -57,11 +57,11 @@ python hello-world.py
 - [ ]  Add a project website
 - [ ]  Add a project wiki
 - [ ]  Add shields to README.md
-- [ ]  github actions hello world
-- [ ]  google dorks hello world
-- [ ]  office macro hello world
-- [ ]  uml hello world
-- [ ]  unit test hello world
+- [ ]  Github actions hello world
+- [ ]  Google dorks hello world
+- [ ]  Office macro hello world
+- [ ]  Uml hello world
+- [ ]  Unit test hello world
 
 ## Contributing
 The first documented use of "Hello, World!" as a computer programming message dates back to 1972. It was introduced by [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), one of the pioneers of the C programming language, while he was working on the development of the Unix operating system at Bell Labs. The initial version of "Hello, World!" was used in a tutorial for the B programming language, which served as the precursor to C.

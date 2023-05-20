@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .message {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+       <script src="hello-world.js"></script>
+</head>
+<body>
+    <div class="message" id="helloWorldMessage"></div>
+    <script>
+        // Get the message from the hello-world.js file and assign it to the element with the ID "helloWorldMessage"
+        document.getElementById("helloWorldMessage").textContent = getHelloWorldMessage();
+    </script>
+</body>
+</html>
