@@ -1,3 +1,4 @@
+// Purpose: The controller for the Hello World program.
 public class HelloWorldController {
     // The model
     private HelloWorldModel model;

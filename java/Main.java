@@ -1,5 +1,8 @@
+// Purpose: The main class for the Hello World program in model-view-controller style.
+// Compile: javac *.java
+// Run: java Main
+// Output: Hello, Java!
 
-// Purpose: The main class for the Hello World program.
 public class Main {
     // The main method
     public static void main(String[] args) {

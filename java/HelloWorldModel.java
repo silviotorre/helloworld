@@ -1,3 +1,4 @@
+// Purpose: The model for the Hello World application.
 public class HelloWorldModel {
     // The message to display
     private String message;
