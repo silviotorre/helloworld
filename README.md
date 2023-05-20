@@ -26,7 +26,7 @@ python hello-world.py
 - [ ]  Go hello world
 - [ ]  Groovy hello world
 - [x]  [Java hello world](java/README.md)
-- [ ]  Javascript hello world
+- [x]  [Javascript hello world](javascript/README.md)
 - [x]  [Json hello world](json/README.md)
 - [ ]  Kotlin hello world
 - [x]  [Kusto hello world](kusto/README.md)
