@@ -23,7 +23,7 @@ python hello-world.py
 - [ ]  Cobol hello world
 - [ ]  F# hello world
 - [ ]  Fortran hello world
-- [ ]  Go hello world
+- [x]  [Go hello world](go/README.md)
 - [ ]  Groovy hello world
 - [x]  [Java hello world](java/README.md)
 - [x]  [Javascript hello world](javascript/README.md)
