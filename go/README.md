@@ -24,16 +24,55 @@ To run the "Hello World" program navigate to the project directory and run the p
 go build hello_world.go
 ./hello_world
 ```
+Here's an example of a more complex "Hello, World!" program in Go that demonstrates the use of patterns and some exclusive advantages of the Go language like Goroutines and Channels.
+    
+    ```go
+    go build hello_world2.go
+    ./hello_world2
+    ```
+    
+## Goroutines
+
+Goroutines are lightweight concurrent threads of execution in Go. They are designed to be lightweight and efficient, allowing you to run multiple tasks concurrently within a single program. Goroutines are managed by the Go runtime and utilize multiplexed thread scheduling, meaning that they can be scheduled onto multiple OS threads as needed.
+
+Goroutines are created using the `go` keyword followed by a function call. When a function is called as a goroutine, it starts running concurrently alongside other goroutines. Goroutines are independent of each other and can execute simultaneously, enabling concurrent execution without the overhead associated with traditional threads.
+
+The key advantages of using goroutines are:
+
+- **Concurrency**: Goroutines enable concurrent execution, allowing multiple tasks to proceed independently and potentially in parallel.
+- **Efficiency**: Goroutines are lightweight, with low overhead compared to traditional threads, making it feasible to have thousands or even millions of goroutines within a single program.
+- **Synchronization**: Goroutines can communicate and synchronize with each other using channels.
+
+## Channels
+
+Channels are a fundamental construct in Go that facilitate communication and synchronization between goroutines. A channel is a typed conduit through which you can send and receive values between goroutines. It provides a safe and efficient way to exchange data or signals between concurrent processes.
+
+To create a channel, you use the `make` function with the `chan` keyword followed by the type of the values that will be passed through the channel. For example, `make(chan int)` creates an unbuffered channel of type `int`.
+
+Channels can be used to:
+
+- **Send and Receive Data**: Goroutines can send values to a channel using the `<-` operator, and other goroutines can receive those values using the same operator.
+- **Synchronize Execution**: Channels can be used to synchronize the execution of goroutines. For example, a goroutine may wait for a value to be sent on a channel before proceeding further.
+- **Coordinate Termination**: Channels can be used to signal the termination of goroutines. By closing a channel, you can notify receiving goroutines that no more values will be sent.
+
+Channels in Go have the following characteristics:
+
+- **Blocking**: Sending or receiving from a channel will block the goroutine until the corresponding operation can proceed. This allows for synchronization between goroutines.
+- **Buffering**: Channels can be buffered, meaning they can hold a limited number of values before the sender blocks. Buffered channels enable asynchronous communication between goroutines.
+- **Unidirectional**: Channels can be restricted to only sending or receiving operations by specifying the direction of the channel in function signatures or variable declarations.
+
+Overall, goroutines and channels form the core concurrency primitives in Go, enabling easy and efficient concurrent programming while maintaining synchronization and communication between different parts of a program.
 
 
-
+## Personal notes
+I like Go! It's a very interesting language, it's easy to learn and it's very powerful. I like the fact that it's a compiled language and it's very fast. I like the fact that it's a statically typed language and it's very safe. I like the fact that it's a modern language and it's very productive. I like the fact that it's a concurrent language and it's very efficient. I like the fact that it's a simple language and it's very readable. I like the fac... ok, I think you got the point. I like Go!
 
 ## tasks
 - [x]  basic "Hello World"  Go program
-- [ ]  Advanced "Hello World" Go program
+- [x]  Advanced "Hello World" Go program
 
 # Extra Credit
-- [ ] Add Goroutines or channels to the program
+- [x] Add Goroutines or channels to the program
 - [ ] Add a test to the program
 - [ ] Add a benchmark to the program
 - [ ] Add a Dockerfile to the program
