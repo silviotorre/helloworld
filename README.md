@@ -34,7 +34,7 @@ python hello-world.py
 - [ ]  Node.js hello world
 - [ ]  Perl hello world
 - [ ]  Powershell hello world
-- [ ]  Python hello world
+- [ ]  [Python hello world](python/README.md)
 - [ ]  Q# hello world
 - [ ]  R hello world
 - [ ]  Ruby hello world
@@ -86,7 +86,7 @@ Don't forget to update the README file to include your contribution!
 
 ## Contributors
 
-- Silvio Torre (silviotorre)  - creator, maintainer
+- Silvio Torre ([silviotorre](https://github.com/silviotorre))  - creator, maintainer and contributor
 
 ## License
 - This project is licensed under the MIT License - see the [MIT](https://choosealicense.com/licenses/mit/) file for details
