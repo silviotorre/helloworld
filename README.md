@@ -33,7 +33,7 @@ python hello-world.py
 - [ ]  Matlab hello world
 - [ ]  Node.js hello world
 - [ ]  Perl hello world
-- [ ]  Powershell hello world
+- [x]  [Powershell hello world](powershell/README.md)
 - [x]  [Python hello world](python/README.md)
 - [ ]  Q# hello world
 - [ ]  R hello world
