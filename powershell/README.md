@@ -35,30 +35,36 @@ alternatively you can:
 - Open the [helloworld.ps1](helloworld.ps1) file with a double click.
 
 ## Example
-```commandline
+```powershell
 
-start helloworld.ps1
+.\helloworld.ps1
 
 ```
 ## An advanced version of Powershell "Hello World" program
-To Do....
-... then
+Here a more complex Hello World program, with module and function to print "Hello World" in Powershell and ps1 file. 
+Main.ps1 script will import the HelloWorld module and then call the Write-HelloWorld function to print "Hello World" in the console. You can add a different "Hello World" output in the Write-HelloWorld function or, for example, you can add parameters or new function to print "Hello World" in a different way.
+- Open a command prompt or terminal.
+- Open [Main.ps1](Main.ps1) file writing in the command prompt or terminal this command.
 
-- Open [helloworld2.ps1](helloworld2.ps1) file.
-- Open the Powershell Console.
+```powershell
+
+.\main.ps1
+
+```
+
 - You should see the output of the Powershell code in the console.
-- Inspect the files for full details on the implementation.
+- Inspect all the files for full details on the implementation.
 - add something new, for example a new output, or a new feature or pattern implementation and try to run it.
-- If extra task are flagged "Done" you can try to run the unit test file [helloworld2.tests.ps1](helloworld2.tests.ps1) with the command `Invoke-Pester` in the Powershell console.
+- **If** extra task are flagged "Done" you can try to run the unit test file [Main.tests.ps1](Main.tests.ps1) with the command `Invoke-Pester` in the Powershell console.
 
 ## tasks
 - [x]  basic "Hello World" Powershell and ps1 file
-- [ ]  Advanced "Hello World" Powershell and ps1 file
+- [x]  Advanced "Hello World" Powershell and ps1 file
 - [ ]  Add a different "Hello World" output
 
 # Extra Credit
 - [ ]  Add external unit test file to the ps1 file
-- [ ]  Add advanced features to this project
+- [x]  Add advanced features to this project
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named helloworld.<extension> with your implementation. Don't forget to update the README file to include your contribution!
