@@ -10,7 +10,8 @@ To get started, clone this repository to your local machine:
 git clone https://github.com/silviotorre/helloworld.git
 ```
 ## Getting Started
-To run the "Hello World" program in a specific programming language. For example, to run the "Hello World" program in Python, navigate to the project directory and run the program:
+In general, to run the "Hello World" program in a specific programming language you must act like in the example below.
+Example: to run the "Hello World" program in Python, navigate to the project directory and run the program with the following command:
 ```bash
 python hello-world.py
 ```
@@ -94,4 +95,5 @@ Don't forget to update the README file to include your contribution!
 ## References
 - [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world)
 
-Enjoy and happy coding!
+
+*Enjoy and happy coding!*
