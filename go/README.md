@@ -30,7 +30,28 @@ Here's an example of a more complex "Hello, World!" program in Go that demonstra
     go build hello_world2.go
     ./hello_world2
     ```
+
+Here's an example of a unit test for the given code. The test ensures that each goroutine receives the expected message and prints it correctly.
+
+    ```go
+    go test hello_world2.go hello_world2_test.go
+    ```
+Or you can run the test with the following command:
     
+        ```go
+        go test -v
+        ```
+The `-v` flag enables verbose output, which prints the name of each test and its result. You can also use the `-run` flag to run only specific tests. For example, the following command runs only the `TestHelloWorld` test:
+
+    ```go
+    go test -v -run TestHelloWorld
+    ```
+ The *go test* command also supports the `-bench` flag to run benchmarks. For example, the following command runs all benchmarks in the package:
+
+    ```go
+    go test -bench .
+    ``` 
+
 ## Goroutines
 
 Goroutines are lightweight concurrent threads of execution in Go. They are designed to be lightweight and efficient, allowing you to run multiple tasks concurrently within a single program. Goroutines are managed by the Go runtime and utilize multiplexed thread scheduling, meaning that they can be scheduled onto multiple OS threads as needed.
@@ -73,7 +94,7 @@ I like Go! It's a very interesting language, it's easy to learn and it's very po
 
 # Extra Credit
 - [x] Add Goroutines or channels to the program
-- [ ] Add a test to the program
+- [x] Add a test to the program
 - [ ] Add a benchmark to the program
 - [ ] Add a Dockerfile to the program
 - [ ] Add a GitHub Action to the program
