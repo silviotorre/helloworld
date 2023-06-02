@@ -19,7 +19,8 @@ var MyModule = (function() {
         var message = {
             text: "Hello, World!",
             print: function() {
-                console.log(this.text);
+                console.log(this.text);// print the message on the console. Use inspect element to see the result in browser. Instructions: right click on the page, select inspect element, select console tab or press F12 and select console tab.
+                
             }
         };
         // return the created object
@@ -48,9 +49,10 @@ window.onload = function() {
     // create observers during the page load
     var observer1 = new Observer('A');
     var observer2 = new Observer('B');
+    // register observers
     MyModule.registerObserver(observer1);
     MyModule.registerObserver(observer2);
-
+    // create a message
     var message = MyModule.createMessage();
     MyModule.notifyObservers(message);
     // print the message
