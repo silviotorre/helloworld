@@ -33,6 +33,17 @@ Windows command line character by character, you can use a loop to iterate throu
 HelloWorld2
 ```
 
+**Running with a test**
+- open a command prompt or terminal
+- go in the cmd directory of hello world project and then compile the program by opening a terminal or command prompt, navigating to the directory where you saved the test.bat file.
+- Run the program by typing **test**, this is not case sensitive so you can type "test", "Test" or "TEST" result are the same. then the program should check is the result of the program is equal to the expected result, wait input to proceed and print the result of the test.
+-  Alternatively, you can run the program by double-clicking the test.bat file. This should also output will display the result of the test.
+-  NOTE: *the test is a simple test, it is not a unit test, it is a simple test to check if the result of the program is equal to the expected result.*
+
+```cmd
+test
+```
+
 ## tasks
 - [x]  basic "Hello World" command-line batch program
 - [x]  Advanced "Hello World" command-line batch program char by char
@@ -40,6 +51,7 @@ HelloWorld2
 # Extra Credit
 - [ ]  Add colours to the output
 - [x]  Add advanced typing effect to the output, i.e. print one character at a time
+- [x]  Add something like to a test in the program
 - [ ]  Add a command-line argument to the program to print a custom message
 - [ ]  Add ASCII art to the output
 
