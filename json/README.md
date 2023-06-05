@@ -16,7 +16,7 @@ https://it.wikipedia.org/wiki/JavaScript_Object_Notation
 - open a command prompt or terminal
 - go in the json directory of hello world project.
 - Read the Json files **HelloWorld** with a Json parser/reader, you also need a base 64 decoder to read the **HelloWorldEncoded** file.
-- Alternatively, you can use command line to print in plain text the **HelloWorld** files as in example below.
+- Alternatively, you can use command line to print in plain text the **HelloWorld** files as in example below to convert the Json file to a PowerShell object with the **ConvertFrom-Json** cmdlet and print the **HelloWorld** property of the object.
 
 ## Example
 ```powershell
