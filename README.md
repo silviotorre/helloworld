@@ -33,7 +33,7 @@ python hello-world.py
 - [x]  [Kusto hello world](kusto/README.md)
 - [ ]  Matlab hello world
 - [ ]  Node.js hello world
-- [ ]  Perl hello world
+- [x]  [Perl hello world](perl/README.md)
 - [x]  [Powershell hello world](powershell/README.md)
 - [x]  [Python hello world](python/README.md)
 - [ ]  Q# hello world
