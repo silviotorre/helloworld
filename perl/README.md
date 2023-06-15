@@ -28,6 +28,24 @@ Here's an example of a more complex "Hello, World!" program in Perl. This one us
     ```perl
     Perl build hello_world2.pl
     ```
+## Rest API
+A rest API is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data.
+In Perl can be used to create a REST API using various frameworks. One of the popular ones is Dancer. The following is an example of how you can create a simple REST API using Dancer that returns "Hello, World!".
+- Install Dancer using as in example below
+- run the app.pl file also in example below
+- then open a browser and navigate to http://localhost:3000/hello/
+
+```perl
+cpan Dancer
+perl app.pl
+```
+the output should be like this:
+```perl
+$ perl app.pl
+>> > Dancer2 v0.300000 server 12045 listening on http://0.0.0.0:3000
+```
+[Dancer](https://perldancer.org/) is a lightweight web application framework for Perl.
+
 
 
 ## tasks
@@ -36,7 +54,7 @@ Here's an example of a more complex "Hello, World!" program in Perl. This one us
 
 # Extra Credit
 - [x] Add a flexibile example to the program
-- [ ] Add a test to the program
+- [x] Add a rest api to the program
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
