@@ -49,6 +49,7 @@ Instead, a Factory can provide a generic interface for creating objects, where w
 # Extra Credit
 - [ ]  Add external css file to the html file
 - [ ]  Add advanced features to the Python function getHelloWorld()
+- [x]  Add unit test to the Python function
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
