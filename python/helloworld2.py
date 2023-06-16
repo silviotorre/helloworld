@@ -9,8 +9,8 @@ class Singleton(type):
 
 # Decorator Pattern
 def uppercase_decorator(func):
-    def wrapper():
-        original_result = func()
+    def wrapper(*args, **kwargs):  # Modify this line
+        original_result = func(*args, **kwargs)  # And this line
         modified_result = original_result.upper()
         return modified_result
     return wrapper
@@ -24,6 +24,7 @@ class HelloWorld(metaclass=Singleton):
 # Usage
 hello = HelloWorld()
 print(hello.say_hello())
+
 
 # Expected Output: HELLO, WORLD!
 # unexpected output: Hello, World!
