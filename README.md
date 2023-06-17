@@ -41,7 +41,7 @@ python hello-world.py
 - [ ]  Ruby hello world
 - [ ]  Rust hello world
 - [ ]  Scala hello world
-- [ ]  Sql hello world
+- [x]  [Sql hello world](sql/README.md)
 - [ ]  T-sql hello world
 - [ ]  U-sql hello world
 - [ ]  Visual Basic hello world
