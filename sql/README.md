@@ -31,19 +31,30 @@ mysql -u root -p < helloworld.sql
 
 This was an example of a more complex "Hello, World!" in Sql using a simple **DML statement**: In SQL DML is Data Manipulation Language and is used to retrieve, store, modify, delete, insert and update data in database. DML statements are SELECT, INSERT, UPDATE and DELETE.
 
+
+## Advanced "Hello World" Sql statements
+
+**Using CTE**
+This one is made using **Common Table Expression (CTE)** and is a bit more complex than the previous one. A CTE is a temporary result set that is defined within the execution scope of a single SQL statement. A CTE is similar to a derived table in that it is not stored as an object and lasts only for the duration of the query. Unlike a derived table, a CTE can be self-referencing and can be referenced multiple times in the same query.
+
+```bash
+mysql -u root -p < helloworld2.sql
+```
+
+**Using DDL**
 A bit more complex example of "Hello, World!" in Sql using a simple **DDL statement**: In SQL DDL is Data Definition Language and is used to create and modify the structure of database objects in Sql. DDL statements are CREATE, ALTER, DROP, RENAME and TRUNCATE.
 
 ```bash
-mysql -u root -p < helloworld.sql
+mysql -u root -p < helloDML.sql
 ```
 
 ## tasks
 - [x]  basic "Hello World"  Sql statement using select. Select is a DML statement and is used to query data in a database. 
-- [ ]  Advanced "Hello World" Sql statement
+- [x]  Advanced "Hello World" Sql statement
 
 # Extra Credit
-- [ ] Add a flexibile example to the statement
-- [ ] Add a DDL example to the statement. DDL is Data Definition Language and is used to create and modify the structure of database objects in Sql. DDL statements are CREATE, ALTER, DROP, RENAME and TRUNCATE.
+- [x] Add a flexibile example to make an advanced statement
+- [x] Add a DDL example to the statement. DDL is Data Definition Language and is used to create and modify the structure of database objects in Sql. DDL statements are CREATE, ALTER, DROP, RENAME and TRUNCATE.
 
 ## Contributing
 Feel free to contribute your own "Hello World" programs to this repository. Simply create a new directory with the name of the programming language and add a file named hello-world.<extension> with your implementation. Don't forget to update the README file to include your contribution!
