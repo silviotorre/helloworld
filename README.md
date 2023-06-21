@@ -45,7 +45,7 @@ python hello-world.py
 - [ ]  T-sql hello world
 - [ ]  U-sql hello world
 - [ ]  Visual Basic hello world
-- [ ]  Vb.net hello world
+- [x]  [Vb.net hello world](vbnet/README.md)
 - [ ]  Xml hello world
 - [ ]  Yaml hello world
 
