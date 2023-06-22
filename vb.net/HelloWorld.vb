@@ -3,6 +3,7 @@ Imports System
 ' which provides access to the standard input, output and error streams
 ' of the console.
 
+' checkif the .net framework is installed: https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed
 Module HelloWorld
 ' Declare a module called HelloWorld. Modules are used to organize code
     Sub Main()
