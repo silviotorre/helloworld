@@ -37,14 +37,22 @@ The .NET Framework is a software framework developed by Microsoft that runs prim
 - info about the .net framework can be found at [https://en.wikipedia.org/wiki/.NET_Framework](https://en.wikipedia.org/wiki/.NET_Framework)
 
 ## An advanced version of Vb.Net "Hello World" program
-.
 
-- 
+- If you're using an IDE, select [ComplexHelloWorld.vb](ComplexHelloWorld.vb) and open it, click on the "Run" or "Start" button to execute the program.
+- If you're using a command-line interface, open a command prompt or terminal
+- go in the Vb.Net directory of hello world project.
+- execute the command *vbc ComplexHelloWorld.vb* to compile the program.
+- Then execute the generated executable by running ComplexHelloWorld.exe. You need .net framework installed on your machine to do so.
+  
+```commandline
 
+vbc ComplexHelloWorld.vb
+
+```
 
 ## tasks
 - [x]  basic "Hello World" Vb.Net
-- [ ]  Advanced "Hello World" Vb.Net 
+- [x]  Advanced "Hello World" Vb.Net 
 
 # Extra Credit
 - [ ]  Create a "Hello" class library with the Vb.Net function
