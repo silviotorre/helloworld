@@ -40,5 +40,14 @@ Module HelloWorld
 
         ' Wait for user input before exiting
         Console.ReadLine()
+        ' Console.ReadLine() reads a line from the standard input stream
+        ' alternatively, you can use Console.ReadKey() to read a single character
+        ' for example if you want to exit the program when the user presses the x key
+        ' you can use the following code:
+        ' Dim key As ConsoleKeyInfo = Console.ReadKey()
+        ' If key.Key = ConsoleKey.X Then
+        '     Exit Sub
+        ' End If
+        
     End Sub
 End Module

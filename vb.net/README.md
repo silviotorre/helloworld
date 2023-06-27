@@ -38,9 +38,27 @@ The .NET Framework is a software framework developed by Microsoft that runs prim
 
 ## An advanced version of Vb.Net "Hello World" program
 
-- If you're using an IDE, select [ComplexHelloWorld.vb](ComplexHelloWorld.vb) and open it, click on the "Run" or "Start" button to execute the program.
+Singleton design pattern to ensure that only one instance of the SingletonHelloWorld class is created. The factory method design pattern is used to create the instance of SingletonHelloWorld through the HelloWorldFactory class. Using these design patterns, we  achieve a better control over object creation and access to the SingletonHelloWorld class, providing more flexibility and extensibility to the program.
+
+**What are design patterns?**
+Design patterns are reusable solutions to common programming problems. They were popularized with the 1994 book Design Patterns: Elements of Reusable Object-Oriented Software by Erich Gamma, John Vlissides, Ralph Johnson and Richard Helm (who are commonly known as a Gang of Four, hence the GoF acronym).
+Design patterns also provide a common language or vocabulary for developers to efficiently describe the purpose of a piece of code. 
+If you are new to object-oriented programming, check out this object-oriented programming example.
+
+**What is Singleton design pattern?**
+The Singleton design pattern is a creational pattern that ensures only one instance of the class exists and provides a global point of access to that instance. It is named after the singleton set, which is defined to be a set containing one element. The pattern was designed to be used when exactly one object is needed to coordinate actions across the system. The term comes from the mathematical concept of a singleton.
+
+**What are the "Factory Method" design pattern?**
+The factory method design pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor.
+
+Ok, let's see the code and the working of the program.
+
+
+- If you're using an IDE, select [ComplexHelloWorld.vb](ComplexHelloWorld.vb) and open it, check the code and familiarize with design patterns used.
+- Click on the "Run" or "Start" button to execute the program. Use debug to see the code in action.
 - If you're using a command-line interface, open a command prompt or terminal
 - go in the Vb.Net directory of hello world project.
+- To see the code in windows use the command *type ComplexHelloWorld.vb*. In Linux use the command *cat ComplexHelloWorld.vb*.
 - execute the command *vbc ComplexHelloWorld.vb* to compile the program.
 - Then execute the generated executable by running ComplexHelloWorld.exe. You need .net framework installed on your machine to do so.
   
@@ -56,7 +74,7 @@ vbc ComplexHelloWorld.vb
 
 # Extra Credit
 - [ ]  Create a "Hello" class library with the Vb.Net function
-- [ ]  Add advanced features to the Vb.Net function
+- [x]  Add advanced features to the Vb.Net function
 - [ ]  Add unit test to the Vb.Net function
 
 ## Contributing
