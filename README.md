@@ -47,7 +47,7 @@ python hello-world.py
 - [ ]  Visual Basic hello world
 - [x]  [Vb.net hello world](vbnet/README.md)
 - [ ]  Xml hello world
-- [ ]  Yaml hello world
+- [x]  [Yaml hello world](yaml/README.md)
 
 
 # Extra Credit
