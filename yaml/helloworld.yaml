@@ -1,0 +1,21 @@
+# This is a YAML file for a pipeline
+
+# Define the pipeline
+pipeline:
+  # List of jobs to be executed
+  jobs:
+    # Job to print "Hello, World!" message
+    - name: hello-world
+      # Instructions for the job
+      instructions: |
+        This job prints the "Hello, World!" message.
+        
+        Steps:
+        1. Print the message.
+      # Configuration for the job
+      configuration:
+        # Runner for the job
+        runner: shell
+        # Script or commands to be executed
+        script: |
+          echo "Hello, World!"
