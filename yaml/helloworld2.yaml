@@ -1,0 +1,31 @@
+# This is a YAML file for a pipeline
+
+# Define the pipeline
+pipeline:
+  # List of jobs to be executed
+  jobs:
+    # Job to print "Hello, World!" message
+    - name: hello-world
+      # Instructions for the job
+      instructions: |
+        This job prints a more complex "Hello, World!" message.
+        
+        Steps:
+        1. Set variables for greeting and target.
+        2. Concatenate the greeting and target variables.
+        3. Print the final message.
+      # Configuration for the job
+      configuration:
+        # Runner for the job
+        runner: shell
+        # Script or commands to be executed
+        script: |
+          # Set variables
+          greeting="Hello"
+          target="World"
+          
+          # Concatenate variables
+          message="$greeting, $target!"
+          
+          # Print the message
+          echo $message
