@@ -19,3 +19,9 @@ pipeline:
         # Script or commands to be executed
         script: |
           echo "Hello, World!"
+        # timeout for the job
+        timeout: 60
+        # Exit code for the job
+        exit_code: 0
+
+
