@@ -25,6 +25,21 @@ Get-Content .\HelloWorld.json | ConvertFrom-Json
 
 ```
 
+Alternatively, you can use command line to print in plain text the **HelloWorld** files as in example below to convert the Json file to a PowerShell object with the **ConvertFrom-Json** cmdlet and print the **HelloWorld** property of the object.
+    
+    ```powershell
+    Get-Content .\HelloWorld.json | ConvertFrom-Json | Select-Object -ExpandProperty HelloWorld
+    ```
+    
+You can also use the **Invoke-RestMethod** cmdlet to read the **HelloWorld** property of the object.
+    
+    ```powershell
+    Invoke-RestMethod -Uri .\HelloWorld.json | Select-Object -ExpandProperty HelloWorld
+    ```
+    Rest method is also useful to read the **HelloWorldEncoded** file.
+    
+    ```powershell
+
 
 ## tasks
 - [x]  basic "Hello World" Json
