@@ -1,8 +1,8 @@
-package main
+package main // Package declaration
 
 import (
-	"fmt"
-	"sync"
+	"fmt" // Import package fmt. This package implements formatted I/O with functions analogous to C's printf and scanf.
+	"sync"// Import package sync. This package provides basic synchronization primitives such as mutual exclusion locks.
 )
 
 // Number of goroutines to spawn
@@ -46,3 +46,5 @@ func printMessage(goroutineID int, ch chan string) {
 }
 // find this program here: https://github.com/silviotorre/helloworld/blob/main/go/hello_world2.go 
 // info here; https://silviotorre.github.io/helloworld/go/  
+// run this program here: https://play.golang.org/p/2Z3Z4zXZ3Zw
+// and here: https://onecompiler.com/go/3wvq6q3xg
