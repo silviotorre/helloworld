@@ -20,7 +20,7 @@ pipeline:
         script: |
           echo "Hello, World!"
         # timeout for the job
-        timeout: 60
+        timeout: 15
         # Exit code for the job
         exit_code: 0
 
