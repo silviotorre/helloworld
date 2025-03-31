@@ -1,3 +1,23 @@
+<!-- Open Graph meta tags -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta property="og:title" content="Hello World in Multiple Languages Extravaganza" />
+<meta property="og:description" content="A collection of 'Hello World' programs written in multiple programming languages. Explore and contribute!" />
+<meta property="og:image" content="https://silviotorre.github.io/helloworld/media/meme-hello-world.jpeg" />
+<meta property="og:url" content="https://silviotorre.github.io/helloworld/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Hello World Extravaganza" />
+
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Hello World in Multiple Languages Extravaganza" />
+<meta name="twitter:description" content="A collection of 'Hello World' programs written in multiple programming languages. Explore and contribute!" />
+<meta name="twitter:image" content="https://silviotorre.github.io/helloworld/media/meme-hello-world.jpeg" />
+<meta name="twitter:site" content="@your_twitter_handle" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://silviotorre.github.io/helloworld/" />
+
 # Hello World in Multiple Languages Extravaganza
 Hello world project extravaganza
 ## Synopsis
