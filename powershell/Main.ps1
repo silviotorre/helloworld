@@ -1,17 +1,9 @@
-# PowerShell adds directories to the PSModulePath environment variable that it uses to locate modules.
-# So, we add our current directory (which contains our module) to the PSModulePath.
+# Resolve the module path relative to this script so the example works
+# when launched from the repository root or directly from this directory.
+$modulePath = Join-Path -Path $PSScriptRoot -ChildPath "HelloWorld.psm1"
 
-# Get-Location returns the current path. 
-# .Path is used to get the string value of the path
-$modulePath = (Get-Location).Path 
-
-# Concatenate current module path with existing PSModulePath
-$env:PSModulePath = $env:PSModulePath + ";" + $modulePath
-
-# Import the HelloWorld module.
-# Import-Module cmdlet adds one or more modules to the current session.
-# The modules that you import must be installed on the local computer or a remote computer.
-Import-Module HelloWorld 
+# Import the HelloWorld module from the local file path.
+Import-Module $modulePath -Force
 
 # Call the Write-HelloWorld function exported by our module.
 # This function outputs "Hello, World!" to the console.

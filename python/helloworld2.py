@@ -7,13 +7,16 @@ class Singleton(type):
             cls._instances[cls] = super().__call__(*args, **kwargs)
         return cls._instances[cls]
 
+
 # Decorator Pattern
 def uppercase_decorator(func):
-    def wrapper(*args, **kwargs):  # Modify this line
-        original_result = func(*args, **kwargs)  # And this line
+    def wrapper(*args, **kwargs):
+        original_result = func(*args, **kwargs)
         modified_result = original_result.upper()
         return modified_result
+
     return wrapper
+
 
 # Hello World Class
 class HelloWorld(metaclass=Singleton):
@@ -21,9 +24,10 @@ class HelloWorld(metaclass=Singleton):
     def say_hello(self):
         return "Hello, World!"
 
-# Usage
-hello = HelloWorld()
-print(hello.say_hello())
+
+if __name__ == "__main__":
+    hello = HelloWorld()
+    print(hello.say_hello())
 
 
 # Expected Output: HELLO, WORLD!
