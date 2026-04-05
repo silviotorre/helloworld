@@ -1,119 +1,159 @@
-<!-- Open Graph meta tags -->
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta property="og:title" content="Hello World in Multiple Languages Extravaganza" />
-<meta property="og:description" content="A collection of 'Hello World' programs written in multiple programming languages. Explore and contribute!" />
-<meta property="og:image" content="https://silviotorre.github.io/helloworld/media/meme-hello-world.jpeg" />
-<meta property="og:url" content="https://silviotorre.github.io/helloworld/" />
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Hello World Extravaganza" />
-
-<!-- Twitter Card meta tags -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Hello World in Multiple Languages Extravaganza" />
-<meta name="twitter:description" content="A collection of 'Hello World' programs written in multiple programming languages. Explore and contribute!" />
-<meta name="twitter:image" content="https://silviotorre.github.io/helloworld/media/meme-hello-world.jpeg" />
-<meta name="twitter:site" content="@your_twitter_handle" />
-
-<!-- Canonical URL -->
-<link rel="canonical" href="https://silviotorre.github.io/helloworld/" />
-
 # Hello World in Multiple Languages Extravaganza
-Hello world project extravaganza
-## Synopsis
-This repository contains a collection of "Hello World" programs written in multiple programming languages. This is a fun and educational project that showcases how to print "Hello World" in different programming languages. The goal is to have a "Hello World" program in every programming language. This project is inspired by the [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world) project. Check out the project website at [https://silviotorre.github.io/helloworld/](https://silviotorre.github.io/helloworld/) for more information.
+
+This repository collects small "Hello, World!" examples across multiple languages and data formats. The current goal is repository quality: accurate documentation, runnable examples, and lightweight verification that contributors can repeat locally.
 
 ![Hello world project extravaganza](media/meme-hello-world.jpeg)
-## check out the code
-To get started, clone this repository to your local machine:
+
+## Repository Contract
+
+Each language directory should provide:
+
+- a `README.md` with real run instructions
+- at least one runnable or inspectable example
+- optional advanced examples or tests
+- a task list aligned with the files that actually exist
+
+Naming is intentionally not fully uniform because languages and ecosystems differ. This repository currently uses all of the following patterns:
+
+- `hello_world.*`
+- `hello-world.*`
+- `helloworld.*`
+- language-specific exceptions such as `Main.java`
+
+If you add a new language, document the chosen naming convention in that language directory instead of forcing a repo-wide rename.
+
+## Getting Started
+
+Clone the repository:
+
 ```bash
 git clone https://github.com/silviotorre/helloworld.git
+cd helloworld
 ```
-## Getting Started
-In general, to run the "Hello World" program in a specific programming language you must act like in the example below.
-Example: to run the "Hello World" program in Python, navigate to the project directory and run the program with the following command:
-```bash
-python hello-world.py
+
+Examples:
+
+- Python: `python python/helloworld.py`
+- PowerShell: `powershell -File powershell/helloworld.ps1`
+- JavaScript: open `javascript/hello-world.html` in a browser
+- JSON: inspect `json/HelloWorld.json` with any JSON parser
+
+## Implemented Directories
+
+The repository currently contains examples for:
+
+- `cmd`
+- `go`
+- `java`
+- `javascript`
+- `json`
+- `kusto`
+- `perl`
+- `powershell`
+- `python`
+- `sql`
+- `vb.net`
+- `yaml`
+
+## Current Status
+
+Implemented and documented today:
+
+- [x] Cmd
+- [x] Go
+- [x] Java
+- [x] JavaScript
+- [x] JSON
+- [x] Kusto
+- [x] Perl
+- [x] PowerShell
+- [x] Python
+- [x] SQL
+- [x] VB.NET
+- [x] YAML
+
+Planned future additions:
+
+- [ ] Bash
+- [ ] C
+- [ ] C#
+- [ ] Cobol
+- [ ] F#
+- [ ] Fortran
+- [ ] Groovy
+- [ ] Kotlin
+- [ ] Matlab
+- [ ] Node.js
+- [ ] Q#
+- [ ] R
+- [ ] Ruby
+- [ ] Rust
+- [ ] Scala
+- [ ] T-SQL
+- [ ] U-SQL
+- [ ] Visual Basic
+- [ ] XML
+
+## Supported Checks
+
+Run the root smoke check from the repository root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/smoke-check.ps1
 ```
-## tasks
-- [x]  create a hello world project
-- [ ]  Bash hello world
-- [ ]  C hello world
-- [ ]  C# hello world
-- [x]  [Cmd line hello world](cmd/README.md)
-- [ ]  Cobol hello world
-- [ ]  F# hello world
-- [ ]  Fortran hello world
-- [x]  [Go hello world](go/README.md)
-- [ ]  Groovy hello world
-- [x]  [Java hello world](java/README.md)
-- [x]  [Javascript hello world](javascript/README.md)
-- [x]  [Json hello world](json/README.md)
-- [ ]  Kotlin hello world
-- [x]  [Kusto hello world](kusto/README.md)
-- [ ]  Matlab hello world
-- [ ]  Node.js hello world
-- [x]  [Perl hello world](perl/README.md)
-- [x]  [Powershell hello world](powershell/README.md)
-- [x]  [Python hello world](python/README.md)
-- [ ]  Q# hello world
-- [ ]  R hello world
-- [ ]  Ruby hello world
-- [ ]  Rust hello world
-- [ ]  Scala hello world
-- [x]  [Sql hello world](sql/README.md)
-- [ ]  T-sql hello world
-- [ ]  U-sql hello world
-- [ ]  Visual Basic hello world
-- [x]  [Vb.net hello world](vbnet/README.md)
-- [ ]  Xml hello world
-- [x]  [Yaml hello world](yaml/README.md)
 
+The smoke check validates:
 
-# Extra Credit
-- [ ]  Add a new programming languages
-- [ ]  Add a project banner
-- [ ]  Add a project logo
-- [ ]  Add a project translation
-- [ ]  Add a project website
-- [ ]  Add a project wiki
-- [ ]  Add shields to README.md
-- [ ]  Github actions hello world
-- [ ]  Google dorks hello world
-- [ ]  Office macro hello world
-- [ ]  Uml hello world
-- [ ]  Unit test hello world
+- required files in the implemented directories
+- internal README links to local files
+- JavaScript HTML script references
+- JSON parsing
+- YAML parsing when a YAML parser is available in the environment
+- Python execution and `unittest` discovery
+- PowerShell sample execution
 
-## Contributing
-The first documented use of "Hello, World!" as a computer programming message dates back to 1972. It was introduced by [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie), one of the pioneers of the C programming language, while he was working on the development of the Unix operating system at Bell Labs. The initial version of "Hello, World!" was used in a tutorial for the B programming language, which served as the precursor to C.
+Checks degrade explicitly when a required tool is not installed.
 
-"Hello, World!" as a standard introductory example can be attributed to the growth and influence of the C programming language. As C became popular in the 1970s and 1980s, it is simple enough for beginners to understand and illustrates the basic syntax of a programming language. In addition, it is a useful sanity test to make sure that a programming language is correctly installed on a computer.
+## Contribution Notes
 
-This is the original code written in C by Dennis Ritchie:
-```c
-#include <stdio.h>
+For small contributions:
 
-int main(void){
-  printf("hello, world\n");
-  return 0;
-}
-```
-So here is the challenge:
+1. Add a new language directory or improve an existing one.
+2. Include a `README.md` with real run instructions.
+3. Update this root README if the set of implemented languages changes.
+4. Run the smoke check before opening a PR.
 
-![Show me your Hello World!](media/meme-show-me-your-hello-world.jpeg)
+For a starting point, use [templates/LANGUAGE_README_TEMPLATE.md](templates/LANGUAGE_README_TEMPLATE.md).
 
-If you wont to contribute with your own "Hello World" programs to this repository simply create a new directory with the name of the programming language and add a file named **hello-world** with your implementation.
-Don't forget to update the README file to include your contribution!
+## Project Roadmap
+
+Core repository completion:
+
+- [x] Establish a minimum contract for implemented directories
+- [x] Correct broken links and invalid run instructions in main documentation
+- [x] Add a root smoke check
+- [x] Make Python tests discoverable through standard `unittest` discovery
+- [ ] Add GitHub Actions based on the smoke check
+
+Nice to have:
+
+- [ ] Add badges to the root README
+- [ ] Add a project logo
+- [ ] Add translations
+- [ ] Add a wiki
+
+Future language additions:
+
+- [ ] Expand the list of languages beyond the currently implemented set
 
 ## Contributors
 
-- Silvio Torre ([silviotorre](https://github.com/silviotorre))  - creator, maintainer and contributor
+- Silvio Torre ([silviotorre](https://github.com/silviotorre))
 
 ## License
-- This project is licensed under the MIT License - see the [MIT](https://choosealicense.com/licenses/mit/) file for details
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## References
+
 - [GitHub Hello World](https://docs.github.com/en/get-started/quickstart/hello-world)
-
-
-*Enjoy and happy coding!*

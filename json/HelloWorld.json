@@ -1,5 +1,3 @@
 {
-    // The message to display. Simple and in plain text for now.     
-    "message": "Hello, World!"
+  "message": "Hello, World!"
 }
-  
