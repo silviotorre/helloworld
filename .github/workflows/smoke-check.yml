@@ -1,0 +1,22 @@
+name: Smoke Check
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-check:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run repository smoke check
+        shell: powershell
+        run: .\scripts\smoke-check.ps1
