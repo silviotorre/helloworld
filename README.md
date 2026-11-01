@@ -1,5 +1,7 @@
 # Hello World in Multiple Languages Extravaganza
 
+[![Smoke Check](https://github.com/silviotorre/helloworld/actions/workflows/smoke-check.yml/badge.svg)](https://github.com/silviotorre/helloworld/actions/workflows/smoke-check.yml)
+
 This repository collects small "Hello, World!" examples across multiple languages and data formats. The current goal is repository quality: accurate documentation, runnable examples, and lightweight verification that contributors can repeat locally.
 
 ![Hello world project extravaganza](media/meme-hello-world.jpeg)
@@ -114,6 +116,8 @@ The smoke check validates:
 
 Checks degrade explicitly when a required tool is not installed.
 
+The same smoke check runs automatically on `main`, pull requests, and manual workflow dispatch through GitHub Actions.
+
 ## Contribution Notes
 
 For small contributions:
@@ -133,11 +137,11 @@ Core repository completion:
 - [x] Correct broken links and invalid run instructions in main documentation
 - [x] Add a root smoke check
 - [x] Make Python tests discoverable through standard `unittest` discovery
-- [ ] Add GitHub Actions based on the smoke check
+- [x] Add GitHub Actions based on the smoke check
 
 Nice to have:
 
-- [ ] Add badges to the root README
+- [x] Add a CI badge to the root README
 - [ ] Add a project logo
 - [ ] Add translations
 - [ ] Add a wiki
